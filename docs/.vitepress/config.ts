@@ -1,7 +1,7 @@
 import { DefaultTheme, defineConfig } from 'vitepress'
 
 const nav: DefaultTheme.NavItem[] = [
-  { text: '前端基础', link: '/fe/default/index.md' },
+  { text: '前端基础', link: '/fe/default/html.md' },
   { text: '工程化', link: '/fe/engineering/vite.md' },
   { text: '资源合集', link: '/fe/resource/index.md' },
 ]
@@ -29,10 +29,24 @@ const sidebar: DefaultTheme.Sidebar = {
       ]
     },
   ],
+  '/fe/problem': [
+    {
+      text: 'Vue',
+      link:  '/fe/problem/vue.md'
+    },
+      {
+      text: 'React',
+      link:  '/fe/problem/react.md'
+    }
+  ],
   '/fe/resource': [
     {
-      text: '资源合集',
+      text: '常用网站',
       link:  '/fe/resource/index.md'
+    },
+      {
+      text: '工具合集',
+      link:  '/fe/resource/tool.md'
     }
   ],
   '/fe/article': [
