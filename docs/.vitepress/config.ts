@@ -52,10 +52,8 @@ export default defineConfig({
   title: '🍒 Cherry的博客',
   description: '🍒 Cherry的博客',
   lang: 'cn-ZH',
-  base: '/',
-  lastUpdated: true,
+  base:  "/Cherry-blog/",
   themeConfig: {
-    logo: '/logo.png',
     siteTitle: '🍒 Cherry的博客',
     outline: 3,
     socialLinks: [

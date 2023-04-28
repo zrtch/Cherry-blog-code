@@ -39,6 +39,6 @@ features:
     link: /fe/resource/index.md
   - icon: ✊
     title: 坚持不懈
-    details: 路漫漫其修远兮，吾将上下而求索
+    details: 路漫漫其修远兮，吾将上下而求索2
     link: /fe/my/index.md
 ---
