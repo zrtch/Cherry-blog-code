@@ -1,6 +1,6 @@
-## Vite 从入门到精通，玩转新时代前端构建法则
+# Vite 从入门到精通，玩转新时代前端构建法则
 
-### Vite 的概要介绍
+## Vite 的概要介绍
 
 - 开发时效率极高
 - 开箱即用，功能完备
@@ -18,7 +18,7 @@
 ![image.png](https://raw.githubusercontent.com/zrtch/blog-img/master/1669970276973-67a2cbab-2437-498e-8a7e-21ebce890226.png)
 在 Vite 当中，我们的请求发发布到 Vite 的 Server 之后，我们会经过 Server App 然后会经过它一大段的 ModuleGraph 的模块管理，然后会注入各种插件的功能，最后通过 Esbuild 保存到它的一个缓存当中，返回给我们的用户 。
 
-#### 1-2 什么是 Vite
+### 1-2 什么是 Vite
 
 官网：[https://cn.vitejs.dev/guide/](https://cn.vitejs.dev/guide/)
 v2 版本就转为与 Vue 无关
@@ -36,7 +36,7 @@ v2 版本就转为与 Vue 无关
 
 详情可以看官网比较：[https://cn.vitejs.dev/guide/comparisons.html](https://cn.vitejs.dev/guide/comparisons.html)
 
-#### 1-3 Vite 对比其他构建工具的优势
+### 1-3 Vite 对比其他构建工具的优势
 
 Vite 对于 webpack 和 rollup 是个更 High Level 的工具；是为了项目构建而生的；而不是单纯的 js 构建
 
@@ -54,7 +54,7 @@ webpack 更全面；rollup 更专一；vite 更好用
 - 各类 loader：不需要配置各类 loader；比如说在 webpack 我们要配置 css loader style loader，js 的 double loader，各种各样的 loader；像这些 vite 基本给你内置了；他也是通过插件的形式给你去做的，只是提前给你预设好了；开箱即用。
 - build 命令：可以 build 一个类库，也可以 build 一个项目；build 的时候使用的是纯粹的 rollup
 
-#### 1-5【讨论题】谈谈你对于构建工具得认识
+### 1-5【讨论题】谈谈你对于构建工具得认识
 
 聊一聊各位自己配置过的构建工具，直接用 vue-cli 或者 create-react-app 的不算啊，需要知道底层工具，并且进行过配置，搭配命令启动或者脚本启动。可以聊聊你为什么选择这个工具，有什么好处有什么不好用的地方。
 
@@ -64,9 +64,9 @@ webpack 更全面；rollup 更专一；vite 更好用
 - rollup 的大包结果更符合常规 js
 - parcel 最为简单
 
-### Vite 的基础应用
+## Vite 的基础应用
 
-#### 2-1 Vite 的优势
+### 2-1 Vite 的优势
 
 - 上手非常简单
 - 开发效率极高
@@ -101,7 +101,7 @@ export default {
 ![image.png](https://raw.githubusercontent.com/zrtch/blog-img/master/1670209898206-09142aed-b2f9-40d8-93a3-0b7d2d07dfc7.png)
 Vite 的启动方式：在启动的时候预编译，需要编译的文件他做一些编译；初次访问时，只需要首页用到的这些文件，这些模块这些组件，而不需要把整个应用全部加载下来，这就节省了非常多加载的内容，同时我们也不需要编译这些文件，所以他会这么的快。他的快还有另外一个原因就是使用了 Esbuild，这个工具在运行开发环境的时候，他会用这个进行文件的编译，而他的运行效率和性能是比 webpack 和 rollup 高非常多的。![image.png](https://raw.githubusercontent.com/zrtch/blog-img/master/1670221028524-da7c8e31-7819-4c26-9afa-1a97b000d9ee.png)
 
-#### 2-2 Vite 创建 Vue3 项目
+### 2-2 Vite 创建 Vue3 项目
 
 `pnpm create vite ` 安装依赖时尽量别使用 npm
 webpack 和 rollup 是以 js 文件作为 entry 的，对于 vite 他的编译入口是个 html 文件，让浏览器加载 html 文件，在通过 script 标签加载 main.js，这个 js 的请求到了 vite 的 server 之后，vite 去查找这文件然后才会对他进行一个编译。
@@ -118,7 +118,7 @@ export default defineConfig({
 })
 ```
 
-#### 2-3 Vite 创建 Vue2 的项目
+### 2-3 Vite 创建 Vue2 的项目
 
 Vue2 并没有出现在默认列表；Vue <2.7 的支持：[underfin/vite-plugin-vue2](https://github.com/underfin/vite-plugin-vue2)
 
@@ -138,7 +138,7 @@ export default {
 当然也可以访问：[https://github.com/vitejs/awesome-vite#plugins](https://github.com/vitejs/awesome-vite#plugins)就能看到一些关系其他不同框架的插件
 就拿 vue2 来说可以直接克隆它的项目作为项目启动：[https://github.com/logue/vite-vue2-ts-starter](https://github.com/logue/vite-vue2-ts-starter)
 
-#### 2-4 Vite 创建 React 的项目
+### 2-4 Vite 创建 React 的项目
 
 使用插件的名称叫：FastRefresh，解决了很多 react-hot-loader 无法解决的问题，并且速度更快；支持局部更新
 官方插件地址：[https://www.npmjs.com/package/@vitejs/plugin-react](https://www.npmjs.com/package/@vitejs/plugin-react)
@@ -150,7 +150,7 @@ export default {
 <script type="module" src="/src/main.jsx"></script>
 ```
 
-#### 2-5 Vite 中使用 CSS 的各种功能
+### 2-5 Vite 中使用 CSS 的各种功能
 
 1. **css variable**：推荐我们使用原生 css variable 来取进行样式维护；
 
@@ -225,7 +225,7 @@ export default defineComponent({
 }
 ```
 
-#### 2-6 Vite 中使用 Typescript
+### 2-6 Vite 中使用 Typescript
 
 因为 vite 对于 ts 只是编译语法；而不是编译文件；使用 tsc --noEmit 来去只做校验，不做文件的输出。
 
@@ -244,7 +244,7 @@ isolatedModules：指定是否将每个文件作为单独的模块，默认为 t
 - 对于这种类型的 export 需要进行处理
 - 不是一个模块的文件
 
-#### 2-7 Vite 中处理静态资源的方法
+### 2-7 Vite 中处理静态资源的方法
 
 vite 提供了几个 import 的参数，帮助我们以固定的方式去引入这个文件
 
@@ -281,13 +281,13 @@ init().then((m)=>{
 })
 ```
 
-#### 2-8 Vite 集成 eslint 和 prettier
+### 2-8 Vite 集成 eslint 和 prettier
 
 eslint：专门用来设置自定义代码规则。[https://www.jianshu.com/p/9445b232c54b](https://www.jianshu.com/p/9445b232c54b)
 prettier：代码格式化工具。[https://prettier.io/](https://prettier.io/)
 husky：Git Hook 工具，借助 husky 在 git 提交进行一些自动化操作。 [husky 代码规范](https://blog.csdn.net/huangpb123/article/details/102690412)
 
-#### 2-9 Vite 中得 env 环境变量
+### 2-9 Vite 中得 env 环境变量
 
 - MODE：我们现在的模式的分区
 - BASE_URL：本地链接
@@ -303,14 +303,14 @@ husky：Git Hook 工具，借助 husky 在 git 提交进行一些自动化操作
   },
 ```
 
-### Vite 的高级应用
+## Vite 的高级应用
 
-#### 3-2 Vite 中的 HMR 热更新功能
+### 3-2 Vite 中的 HMR 热更新功能
 
 就比如我们在 App.jsx 里面新增了一个 p 标签，但是页面也会马上更新这个 p 标签， 并没有刷新页面抖动的那一下，这就是热更新。vite.config.js 里面的 vueJsx 这个插件已经给我们加进去了， vueJsx() 已经实现掉了。
 首先进入页面有 main.js 的请求，然后改变文件之后，就会有个新的 main.js 的请求；新的 main.js 就会替换老的 main.js；然后形成一个热更新的过程。在 server 端发现了数据更新，然后他推一个事件到前端浏览器里，浏览器知道我们哪个文件更新了，我们就去请求这个文件，然后去替换浏览器老的模块。
 
-#### 3-3 Vite 的 glob-import 批量导入功能
+### 3-3 Vite 的 glob-import 批量导入功能
 
 glob-import：通过一组类似于正则表达式来引入一组的 js 文件。比如做多语言的支持，就可以引入一个文件夹上面所有语言的 json 文件。整个 vite 提供这个 globa-import 的功能来自于第三方的库[fast-glob](https://github.com/mrmlnc/fast-glob)，这个库提供了 vite 让我们可以动态匹配去引入具体的一个匹配模式的一系列文件的方式。
 
@@ -324,7 +324,7 @@ Object.entries(globModules).forEach(([k, v]) => {
 })
 ```
 
-#### 3-4 Vite 性能揭秘---预编译优化
+### 3-4 Vite 性能揭秘---预编译优化
 
 预编译作用：Vite 在第一次启动之前他会先去把这些我们所依赖的这些包进行一个编译，然后放到一个 catch 里面，之后我们所有用到第三方库的包就会直接从 catch 里面取。
 预编译过程中有个非常重要的事情：把非 ESModule 的文件给他编译成 ESModule，因为在我们开发的时候，vite 是依赖浏览器远程的 ESModule 的加载方式去加载文件的。
@@ -342,11 +342,11 @@ export default defineConfig({
 进入项目的时候在 network 里，比如 react.js 就会设置：Cache-Control: max-age=31536000,immutable，这样我们浏览器就不用重新发送请求，而可以直接使用浏览器的缓存。
 如果项目里面的 main.js 我们没改变就是：cache-control: no-cache。
 
-#### 3-5 在非 Node 服务中集成 Vite
+### 3-5 在非 Node 服务中集成 Vite
 
 这些服务不是运行 js 的。比如一些传统的老项目，他们的数据是要后端服务的模板引擎把数据写到 html 里面来进行返回的，比如一些使用 JSTL 的 java 项目。入口 html 是存在 java 项目里面的，因为他们要解析这个模板返回这个 html，而我们写的前端应用关注的是 js 如何嵌入到这个 html 里面成为他的一个标签，这里面就会存在引入路径的问题，因为 vite 是会自动引入路径的，那如果 html 是在别的服务里面，就没有人帮助我们去做这个事情。
 
-#### 3-6 Nodejs 集成 Vite 开发时的 SSR
+### 3-6 Nodejs 集成 Vite 开发时的 SSR
 
 启动了一个 vite 的 dev-server；在 nodejs 中集成 vite 的 dev-server 方法；集成 server 大部分情况下就是为了 ssr
 在 ssr 模式下面，对于我们的请求的管理会转交给我们自己的 server，而不是由 vite 去提供，这个时候我们需要在服务端渲染出 html，提供给 response，
@@ -371,22 +371,22 @@ createViteServer({
 })
 ```
 
-#### 3-7 Node 集成正式 build 的 Vite 应用的 SSR
+### 3-7 Node 集成正式 build 的 Vite 应用的 SSR
 
 [https://cn.vitejs.dev/guide/ssr.html#setting-up-the-dev-server](https://cn.vitejs.dev/guide/ssr.html#setting-up-the-dev-server)
 
-#### 3-8 通过 SSR 功能实现静态站点导出
+### 3-8 通过 SSR 功能实现静态站点导出
 
 [https://cn.vitejs.dev/guide/static-deploy.html](https://cn.vitejs.dev/guide/static-deploy.html)
 
-#### 3-9 Vite 配置项一览
+### 3-9 Vite 配置项一览
 
 常规配置项：[https://cn.vitejs.dev/config/shared-options.html](https://cn.vitejs.dev/config/shared-options.html)
 build 配置：[https://cn.vitejs.dev/config/build-options.html](https://cn.vitejs.dev/config/build-options.html)
 
-### Rollup 系统学习
+## Rollup 系统学习
 
-#### 4-1 Rollup 介绍
+### 4-1 Rollup 介绍
 
 非常成熟的前端构建工具，rollup 能够打包一个大部分场景的 build。开源类库优先选择，它是你以 ESM 标准为目标的构建工具。打包的时候能够把一些不需要的代码给他去掉，减少代码的文件大小，提高运行性能。
 首先全局安装：cnpm i -g rollup
@@ -431,7 +431,7 @@ funA()
 console.log('hello rollup')
 ```
 
-#### 4-2 ES Module 详解
+### 4-2 ES Module 详解
 
 ![img.png](https://raw.githubusercontent.com/zrtch/blog-img/master/1670551169122-2f53f5d1-1a09-40ed-8f95-9c46336d2eb2.png)
 在具名导入时，我们可以同时进行重命名，比如 `import { useEffect as myUseEffect } from "react"`就可以在引入时给变量进行一个新的命名。
@@ -472,7 +472,7 @@ ES Module 和 Common JS 模块的区别
 - import 导入的内容是静态的不允许修改的
 - 而 require 引入的对象本身就是原始对象的引用，可以直接进行修改
 
-#### 4-3 Rollup 的命令行使用
+### 4-3 Rollup 的命令行使用
 
 - `rollup -v`：查看 rollup 版本
 - `rollup -i index.js --file dist.js --format umd`：-i 代表输入文件；--file 代表输出文件；--fromat 代表需要输出的文件类型
@@ -486,7 +486,7 @@ ES Module 和 Common JS 模块的区别
 - `rollup --config rollup.config.js --environment MODE:loca`：environment 区分环境
 - rollup 插件：[https://github.com/rollup/plugins](https://github.com/rollup/plugins)
 
-#### 4-4 Rollup 配置文件使用
+### 4-4 Rollup 配置文件使用
 
 ```javascript
 //在 package.json里面进行配置
@@ -533,7 +533,7 @@ export default [
 ]
 ```
 
-#### 4-5 Rollup 插件功能解析（上）
+### 4-5 Rollup 插件功能解析（上）
 
 rollup 插件：[https://github.com/rollup/plugins](https://github.com/rollup/plugins)
 rollup 的插件机制：通过输入的内容，会经过 rollup 核心的代码的处理，接下来通过调用不同的插件，进过这些插件对这个代码或者对文件内容的处理，最后形成一个输出文件 emit file 之后，整个文件 build 就结束了。
@@ -595,7 +595,7 @@ export default {
 }
 ```
 
-#### 4-7 Rollup 常用插件盘点
+### 4-7 Rollup 常用插件盘点
 
 - rollup-plugin-commonjs：用于将 CommonJS 模块转换为 ES6 模块，以便 Rollup 可以处理它们。
 - rollup-plugin-node-resolve：解析 npm 模块的路径，以便 Rollup 可以找到它们。
@@ -604,7 +604,7 @@ export default {
 - rollup-plugin-replace：可以在打包时替换模块中的变量。
 - TypeScript，eslint，image，strip，wasm
 
-#### 4-8 Esbuild 的使用教程
+### 4-8 Esbuild 的使用教程
 
 esbuild 使用 Go 语言开发， 没有配置文件这个概念；不能编译到 es5
 
@@ -627,7 +627,7 @@ npx esbuild index.js --outfile=dist.js --platform=node --format=cjs
 npx esbuild index.js --outfile=dist.js --platform=node --format=cjs --watch
 ```
 
-#### 4-9 Esbuild 插件的开发方式
+### 4-9 Esbuild 插件的开发方式
 
 ```javascript
 import esbuild from 'esbuild'
@@ -670,9 +670,9 @@ esbuild
   .catch(() => process.exit(1))
 ```
 
-### Vite 插件系统详解
+## Vite 插件系统详解
 
-#### 5-1 Vite 插件开发概述
+### 5-1 Vite 插件开发概述
 
 命名规范：
 
@@ -695,7 +695,7 @@ vite 独有的钩子：
 - transformIndexHtml：入口的 html 文件，可以在这个函数做一些操作
 - handleHotUpdate：去处理热更新的时候可以做一些对于自己特殊文件的特性处理，让热更新更全面强大
 
-#### 5-2 Vite 插件的执行时机
+### 5-2 Vite 插件的执行时机
 
 vite 当中有是三个执行时机
 
@@ -705,7 +705,7 @@ vite 当中有是三个执行时机
 
 vite 的插件执行文件编译是要我们有请求的时候它才是累累的去编译，而不是项目一起动就全部编译，不然就变得像 webpack 一启动要等很久才会真正的启动开始。
 
-#### 5-3 Vite 插件 API 详解
+### 5-3 Vite 插件 API 详解
 
 config：
 configResolved：
@@ -713,7 +713,7 @@ configureServer：
 transformIndexHtml：
 handleHotUpdate：
 
-#### 5-4 HMR-API 详细解析（上）
+### 5-4 HMR-API 详细解析（上）
 
 原文链接：[Vite HMR API](https://blog.csdn.net/wu_xianqiang/article/details/127713347)
 模块热替换（hot module replacement）的简称，指的是在应用运行的时候，不需要刷新页面就可以直接替换、增删模块。vite 的热替换 webpack 的实现类似，都是通过 websocket 建立服务端和浏览器的通信，这样文件发生变动就可以实时反应到浏览器中。
@@ -740,7 +740,7 @@ if (import.meta.hot) {
 }
 ```
 
-#### 5-5 HMR-API 详细解析（下）
+### 5-5 HMR-API 详细解析（下）
 
 hot.dispose(cb)：一个接收自身的模块或一个期望被其他模块接收的模块可以使用 hot.dispose 来清除任何由其更新副本产生的持久副作用：
 
@@ -756,36 +756,36 @@ if (import.meta.hot) {
 }
 ```
 
-#### 5-6 vite-vue3-jsx 插件概览
+### 5-6 vite-vue3-jsx 插件概览
 
 [https://github.com/vitejs/vite/tree/v2/packages/plugin-vue-jsx](https://github.com/vitejs/vite/tree/v2/packages/plugin-vue-jsx)
 
-#### 5-7 vite-vue3-jsx 插件源码解析之配置和产出
+### 5-7 vite-vue3-jsx 插件源码解析之配置和产出
 
 源码：[https://github.com/vitejs/vite/blob/v2/packages/plugin-vue-jsx/index.js](https://github.com/vitejs/vite/blob/v2/packages/plugin-vue-jsx/index.js)
 
-#### 5-8 vite-vue3-jsx 插件详解之 HMR
+### 5-8 vite-vue3-jsx 插件详解之 HMR
 
 源码：[https://github.com/vitejs/vite/blob/v2/packages/plugin-vue-jsx/index.js](https://github.com/vitejs/vite/blob/v2/packages/plugin-vue-jsx/index.js)
 
-#### 5-9 vite-vue3-jsx 插件解析之 SSR
+### 5-9 vite-vue3-jsx 插件解析之 SSR
 
 源码：[https://github.com/vitejs/vite/blob/v2/packages/plugin-vue-jsx/index.js](https://github.com/vitejs/vite/blob/v2/packages/plugin-vue-jsx/index.js)
 
-### 实战 Vite 插件
+## 实战 Vite 插件
 
-#### 6-1 Ast 语法树介绍
+### 6-1 Ast 语法树介绍
 
 代码其实是写给人看的，机器看不懂代码，但是机器可以认识 Ast 结构体。
 ![ast.jpg](https://raw.githubusercontent.com/zrtch/blog-img/master/1671608929746-768ee35f-e8ce-4682-9c69-7f4fdb73c7aa.jpeg)
 
-#### 6-2 MDX 语法介绍和插件设计
+### 6-2 MDX 语法介绍和插件设计
 
 官网：[https://mdxjs.com/](https://mdxjs.com/)
 MDX = MD + JSX -> JSX；就是 markdown 加上 JSX 然后最后把这些书写的内容给他统一转换成 JSX，就是在 markdown 基础上了加上了 JS。
 如何实现：把 MDX Code 通过 MDX 插件转成一个 JSX 的语法，这个 JSX 可以是 Vue 的也可以是 react 的。
 
-#### 6-3 MDX 的使用以及 mdx-loader 的原理
+### 6-3 MDX 的使用以及 mdx-loader 的原理
 
 安装`pnpm i @mdx-js/mdx -D`
 require 报错解决方式：这是由于从 node.js 14 版及以上版本中，require 作为 COMMONJS 的一个命令已不再直接支持使用，所以我们需要导入 createRequire 命令才可以
@@ -833,6 +833,6 @@ export default function MDXContent({ components, ...props }) {
 MDXContent.isMDXComponent = true
 ```
 
-#### 6-4 MDX 如何配合 React 使用
+### 6-4 MDX 如何配合 React 使用
 
 [https://github.com/jxnblk/mdx-deck](https://github.com/jxnblk/mdx-deck)

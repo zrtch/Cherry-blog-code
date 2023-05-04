@@ -66,14 +66,18 @@ export default defineConfig({
   title: '🍒 Cherry的博客',
   description: '🍒 Cherry的博客',
   lang: 'cn-ZH',
-  base:  "/Cherry-blog/",
+  base: "/Cherry-blog/",
   themeConfig: {
     siteTitle: '🍒 Cherry的博客',
-    outline: 3,
+    outlineTitle: '快速导航',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zrtch' }
     ],
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇'
+    },
     nav,
-    sidebar
+    sidebar,
   }
 })

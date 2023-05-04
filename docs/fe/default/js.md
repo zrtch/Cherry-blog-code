@@ -1,4 +1,4 @@
-### 让 JavaScript 跑起来+函数
+## 让 JavaScript 跑起来+函数
 
 JavaScript 既可以在浏览器中执行，也可以在服务端执行，还可以在移动 App 中执行，这一切其实归功于 JavaScript 引擎，比如 V8、JavaScriptCore。 V8 引擎被应用于谷歌浏览器 Chrome 和 Node.js 。V8 很牛逼，是一个开源项目，**使用 C++ 实现了 JavaScript 和 WebAssembly**，应用于 Windows、macOS、Linux 系统，Chrome 和 Node.js 都是采用它实现的。
 
@@ -51,7 +51,7 @@ function kill(a, b) {
 kill(3, 2) //调用函数不传递参数就是空对象
 ```
 
-### JavaScript 中的对象
+## JavaScript 中的对象
 
 - new 关键字后紧跟一个函数调用，这个函数被称为构造函数：
 
@@ -98,7 +98,7 @@ let person5 = new Person('suyan', 30)
 person5.welcome() //He name is suyan age is 30
 ```
 
-### var 很傻、let 很亲切 、const 更坚定
+## var 很傻、let 很亲切 、const 更坚定
 
 - **var 的作用域是全局和函数作用域**，在程序设计语言中，**作用域是指变量能够作用的范围**。全局作用域这个好理解，它伴随着页面的整个生命周期。函数作用域指在函数体内定义，可在函数体内任意地方使用。
 
@@ -204,7 +204,7 @@ callConst(true)
 
 4. var、let、const **申明的变量都会发生变量提升（先使用后定义），var 申明的变量被初始化为 undefined，而 let 和 const 声明的变量不会被初始化，会报错**。
 
-#### JavaScript 中的作用域
+### JavaScript 中的作用域
 
 作用域：说的通俗点就是**一个变量它能够在那个区域起作用**，如果在这个区域访问外部作用域的变量就会报错。JS 中有 3 种作用域。
 
@@ -242,7 +242,7 @@ var type = 1
 console.log(window.type) //1
 ```
 
-### JavaScript 内置对象数组
+## JavaScript 内置对象数组
 
 数组 Array 是 JavaScript 内置对象，它其实是一个函数。在 Chrome 开发者工具 Console 中输入 Array，按回车键，得到以下结果：
 
@@ -400,7 +400,7 @@ array.unshift(1, 2)
 console.log(array) //[ 1, 2, 3, 4, 5]
 ```
 
-### 用故事说透 JavaScript 中的原型
+## 用故事说透 JavaScript 中的原型
 
 本故事纯属虚构，旨在搞懂原型。<br>在地球的一角，荒无人烟，就在 2020 年的时候，这里奇迹般地出现了一位神人，此人生来便拥有一身本领，起名为 Object，寓意为创造万物，万物之源。<br>「公众号素燕注」这里的 Object 就是 JavaScript 中的 Object 对象，所有对象都会指向它。<br> 一天，Object 想着自己活在这个地方太孤单，心想：“如果能造一些和我一样的人类该多好，这样他们就可以帮我干活了。他们需要继承我的能力，这样他们可以直接干活，不需要后续培养干活的能力”。<br>Object 身怀绝技，他把自己的能力交给了一个叫 prototype 的家伙管理着。如果想获取自己的能力，直接输入指令 Object.prototype 即可获取到。<br>「公众号素燕注」这里的 prototype 就是函数原型，Object 其实是一个函数。下面这张图是在 Chrome 浏览器 Console 工具中输入 Object.prototype 得到。
 
@@ -410,7 +410,7 @@ console.log(array) //[ 1, 2, 3, 4, 5]
 - 通过 new + [函数] 的方式会创建一个对象，这个函数被称为构造函数，浏览器会给被创建的对象添加一个属性**proto**属性，这个属性指向构造函数的 prototype。
 - 通过**proto**属性可以实现 Js 中的继承，不过在 ES6 中可以通过关键字 class 定义类来实现
 
-### 从源码到抽象语法树可视化
+## 从源码到抽象语法树可视化
 
 JavaScript 代码被执行的时候大致过程如图：
 ![p](https://mmbiz.qpic.cn/mmbiz_png/dZjzL3cZLGbFpLbj7qicdq50aJ9u0yDRTkcDJ9Yp5dHx19x5VHBoTkaUqUkUWx64NlPcAfTyUcOD4olEib22L87A/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
@@ -418,7 +418,7 @@ JavaScript 代码被执行的时候大致过程如图：
 其中关键的一个环节是生成抽象语法树（AST）。在词法分析的过程中，JavaScript 引擎把源代码转换成一个个 Token，有人可能就会问什么是 Token。
 https://resources.jointjs.com/demos/javascript-ast 使用它可以轻松把 JavaScript 转换成抽象语法树，这有助于分析 JavaScript 代码。
 
-### 字节码与二进制的“样貌”
+## 字节码与二进制的“样貌”
 
 ByteCode（字节码） 和 Mechine Code（机器码）
 ![p](https://mmbiz.qpic.cn/mmbiz_png/dZjzL3cZLGaI0QhLCEcymhYrNy8wia4iapatkR5tzP473zA9oibXDgFbfOMqwEyD9QFiaMAXRY2hZRXus87RHDAzWg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
@@ -451,7 +451,7 @@ node --print-code bcode2.js > ./tcode.js
 
 ![p](https://mmbiz.qpic.cn/mmbiz_png/dZjzL3cZLGbsHeTcsfAZObGfsE64rIJrYmm8a08LzS6abeO8oXEXg0SIgB8VAScyVnzgKVUM3OmGA2Y3d8BTeg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
-### 执行上下文与调用栈
+## 执行上下文与调用栈
 
 当 JavaScript 代码被执行的时候，首先会创建一个「全局执行上下文」，你可以把执行上下文理解为一段代码要执行时需要准备的环境，它主要包含**变量环境、词法环境、this 等**。
 
@@ -472,7 +472,7 @@ welcome() //hello
 上面这段代码会存在一个全局作用域，log 函数作用域和 welcome 函数作用域，JavaScript 代码执行的时候，会从当前作用域查找变量，如果未找到会到它的外层作用域中查找。log 函数的外层作用域是全局作用域，故 log 函数的打印值为全局作用域定义的变量。打印结果为 "hello"。
 当 log 和 welcome 函数执行完后，它们的**执行上下文会依次出栈，并释放它使用的内存空间**。全局执行上下文的内存空间会随着页面的生命周期一直保留着。
 
-### 看透变量提升与块级作用域实现的原理
+## 看透变量提升与块级作用域实现的原理
 
 JavaScript 是如何实现变量提升的，ES6 中又是如何通过 let、const 实现块级作用域的？
 
@@ -530,13 +530,13 @@ look()
 
    本文结合执行上下文分析了变量提升与块级作用域的实现，**变量提升其实就是在编译阶段把 var 声明的变量注入到变量环境中，而块级作用域的实现其实是通过不同的块来保存块中使用 let、const 声明的变量，通过栈的机制来处理不同的块**。执行上下文对理解 this，闭包有很大的作用。
 
-### JS 学习资源
+## JS 学习资源
 
 书籍：《JavaScript 高级程序设计（第三版）》 ， 《JavaScript 指南 原书第七版》
 
 课程：李兵 【浏览器工作原理与实践】 [链接一](https://blog.poetries.top/browser-working-principle/) ， 周爱民 【JavaScript 核心原理解析】
 
-### 让 JS 文件代码相互独立
+## 让 JS 文件代码相互独立
 
 在 JS 的世界，函数是一等公民，在没有 let,const 的时候，JS 中申明的变量只能是全局作用域或者函数作用域，根本没有块级作用域。这样很难避免变量**命名冲突**。比如在一个很大的项目中张三创建了一个 js 文件 block1.js，定义了一个变量 name：
 
@@ -621,7 +621,7 @@ void function () {
 }
 ```
 
-### 带有执行环境的函数 - 闭包
+## 带有执行环境的函数 - 闭包
 
 「闭包的出现能给编程带来哪些便捷呢？」，这是我们学习闭包首先需要面对的问题，也就是说闭包出现的背景是什么。
 
@@ -714,7 +714,7 @@ console.log(c11) // 1
 
 **总之，闭包可以延长变量的释放，你可以把闭包看做是带有执行环境的函数。**
 
-### 调试 JavaScript 少不了这几个技巧
+## 调试 JavaScript 少不了这几个技巧
 
 - 自动断点
 
@@ -789,7 +789,7 @@ console.table(pkg)
 
 ![p](https://mmbiz.qpic.cn/mmbiz_png/dZjzL3cZLGZeGGUkm4ZhlRcFKiaMRic8PWM7rVJTLWsWDOKJqpsEcZsXgBStQYqr0PKk8GfibEzpsiaOe4tGXS0krA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
-### 连接你、我、他 —— this
+## 连接你、我、他 —— this
 
 ```javascript
 let from = 'WuHan'
@@ -897,7 +897,7 @@ function Person(name) {
 let suyan = new Person('suyan')
 ```
 
-### && ，|| 超越了我的认知
+## && ，|| 超越了我的认知
 
 ```javascript
 const person = {
@@ -980,7 +980,7 @@ function oneFn() {
 }
 ```
 
-### JS 中如何实现策略模式
+## JS 中如何实现策略模式
 
 概念：策略模式的定义是:定义一系列的算法，把它们一个个封装起来，并且使它们可以**相互替换。**
 
@@ -1061,7 +1061,7 @@ bonus.setStrategy(new performanceA()) // 设置策略对象
 console.log(bonus.getBonus()) // 输出：30000
 ```
 
-### 对象的 key 原来可以使用变量
+## 对象的 key 原来可以使用变量
 
 实际场景：比如有 3 个 VIP 会员，每一种会员有与之对应的一个会员 id，10 表示年会员，11 表示 3 个月会员，12 表示 6 个月会员。由于代码中多处使用到了会员 id，如果在代码使用数字做不同会员的业务处理，这样做有几个弊端：
 
@@ -1102,7 +1102,7 @@ var vipDes = VIP_ID_OBJ['YEAR_VIP_ID']
 console.log(vipDes) // 买1年送2个月
 ```
 
-### 2 道 this 面试题
+## 2 道 this 面试题
 
 ```javascript
 // 1. 通过 tempSuyanF() 和 obj.suyanF() 调用函数 suyan，最终 a 的结果是啥？
@@ -1149,7 +1149,7 @@ console.log(vipDes) // 买1年送2个月
 
 解析：第 1 题其实一样，主要考察函数在参数传递的过程中**有一次隐式的变量赋值**，执行 doSuyna(obj.suyanF); 时，相当于 fn = obj.suyanF，此时 this 也丢失，故结果是 global a，obj.suyanF(); 和第 1 题一样，结果也是 2。
 
-### 被我忽略的 6 个 JS 开发小技巧
+## 被我忽略的 6 个 JS 开发小技巧
 
 1.  typeof 误解
 
@@ -1253,13 +1253,13 @@ foo()
 函数的声明和 IIFE 的区别在于，在函数的声明中，我们首先看到的是 function 关键字，而 IIFE 我们首先看到的是左边的（。也就是说，**使用一对（）将函数的声明括起来，使得 JS 编译器不再认为这是一个函数声明，而是一个 IIFE，即需要立刻执行声明的函数。**
 两者达到的目的是相同的，都是声明了一个函数 foo 并且随后调用函数 foo。
 
-#### 为什么需要 IIFE？
+### 为什么需要 IIFE？
 
 如果只是为了立即执行一个函数，显然 IIFE 所带来的好处有限。实际上，IIFE 的出现是为了弥补 JS 在**scope 方面的缺陷**：JS 只有全局作用域（global scope）、函数作用域（function scope），从 ES6 开始才有块级作用域（block scope）。对比现在流行的其他面向对象的语言可以看出，JS 在访问控制这方面是多么的脆弱！那么如何实现作用域的隔离呢？在 JS 中，只有 function，只有 function，**只有 function 才能实现作用域隔离**，因此如果要将一段代码中的变量、函数等的定义隔离出来，只能将这段代码封装到一个函数中。
 
 在我们通常的理解中，将代码封装到函数中的目的是为了复用。在 JS 中，当然声明函数的目的在大多数情况下也是为了复用，但是 JS 迫于作用域控制手段的贫乏，我们也经常看到只使用一次的函数：这通常的目的是为了隔离作用域了！既然只使用一次，那么立即执行好了！既然只使用一次，函数的名字也省掉了！这就是 IIFE 的由来。
 
-### 闭包
+## 闭包
 
 ```javascript
 function makeAdder(x) {
