@@ -35,3 +35,7 @@ https://zz123.com/
 ## Obsidian 双向链笔记软件
 
 https://forum-zh.obsidian.md/
+
+## Responsively App 在不同的设备上测试网站的响应式设计
+
+https://github.com/responsively-org/responsively-app
