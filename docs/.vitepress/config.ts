@@ -26,6 +26,7 @@ const sidebar: DefaultTheme.Sidebar = {
       text: '工程化',
       items: [
         { text: 'Vite', link: '/fe/engineering/vite.md' },
+        { text: 'Npm', link: '/fe/engineering/npm.md' },
       ]
     },
   ],
