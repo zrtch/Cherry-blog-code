@@ -4,6 +4,10 @@
 
 https://nav.newzone.top/
 
+## 包管理器配置代理的方法
+
+https://github.com/eryajf/Thanks-Mirror
+
 ## 最强浏览器插件 - 油猴脚本
 
 https://greasyfork.org/zh-CN
@@ -44,14 +48,38 @@ https://forum-zh.obsidian.md/
 
 https://github.com/responsively-org/responsively-app
 
-## SkeletOnReact - 快速生成动画骨架加载组件
+## Asciinema - 录制命令行会话过程并通过链接分享
 
-> 该工具可以轻松创建动画骨架屏幕组件，取代通常的加载，为用户提供更好的体验，为页面提供线框，如内容和图像的占位符框。支持 React、React Native、Vue 和 HTML。
+> 一个可支持直接录制命令行对话并输出 url 给到所有人可见
 
-https://skeletonreact.com/
+https://asciinema.org/
 
-## instant.page - 实时预加载
+## eul - macOS 运行状态监控 App
 
-> 一行代码提速你的网站转化，在用户单击页面之前预加载页面，一般人鼠标放到要点击的链接上，从真正点击下去有预计 100ms 的瞬间延迟，利用此时间差去预加载。
+> 一款对 macos 系统的状态监控的 App
 
-https://instant.page/
+https://github.com/gao-sun/eul
+
+## Mos - 让鼠标更丝滑的 App
+
+> 一款 Mac 上让鼠标丝滑滚动的 App
+
+https://github.com/Caldis/Mos
+
+## APIJSON - HTTP 接口工具
+
+> 零代码、全功能、强安全 ORM 库。 后端接口和文档零代码，前端(客户端) 定制返回 JSON 的数据和结构
+
+https://github.com/Tencent/APIJSON
+
+## Starship - 命令行提示工具
+
+> 一个让你命令行提效的工具
+
+https://github.com/starship/starship
+
+## RSSHub - RSS 生成器
+
+> RSSHub 是一个开源、简单易用、易于扩展的 RSS 生成器，可以给任何奇奇怪怪的内容生成 RSS 订阅源
+
+https://github.com/DIYgod/RSSHub

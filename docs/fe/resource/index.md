@@ -24,6 +24,18 @@ https://csscoco.com/inspiration/#/./init
 
 https://segmentfault.com/a/1190000013040555
 
+## 现代 JavaScript 教程
+
+https://zh.javascript.info/
+
+## ES6 教程
+
+https://es6.ruanyifeng.com/
+
+## TypeScript 入门教程
+
+http://ts.xcatliu.com/
+
 ## 在线查阅手册
 
 https://overapi.com/javascript
