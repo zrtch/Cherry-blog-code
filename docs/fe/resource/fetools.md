@@ -63,3 +63,10 @@ https://github.com/woltapp/blurhash
 > 灵活的浏览器指纹库，从浏览器指纹生成用户的唯一标识符
 
 https://github.com/fingerprintjs/fingerprintjs
+
+## react-dev-inspector - 点击页面元素在编辑器打开对应代码
+
+> 只需简单点击即可直接从浏览器 React 组件跳到本地 IDE 代码
+
+https://github.com/zthxxx/react-dev-inspector
+s
