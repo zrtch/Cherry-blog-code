@@ -30,6 +30,12 @@ https://github.com/ryanmcdermott/clean-code-javascript
 
 > 适用于 JavaScript 的干净代码概念
 
+## 1lo JS Util 方法
+
+https://1loc.dev/
+
+> JavaScript 实用且日常的单行写法
+
 ## 33 个 JavaScript 概念
 
 https://github.com/stephentian/33-js-concepts
