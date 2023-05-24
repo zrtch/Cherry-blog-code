@@ -77,3 +77,9 @@ https://github.com/goldbergyoni/javascript-testing-best-practices
 https://github.com/sudheerj/javascript-interview-questions
 
 > 1000 个 JavaScript 面试问题列表
+
+## JavaScript 元编程
+
+https://mp.weixin.qq.com/s/1E8d5jYb0sFGPRk3pMLaHA
+
+> 元编程是一种编程技术，编写出来的计算机程序能够将其他程序作为数据来处理。意味着可以编写出这样的程序：它能够读取、生成、分析或者转换其它程序，甚至在运行时修改程序自身。
