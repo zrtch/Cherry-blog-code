@@ -69,4 +69,9 @@ https://github.com/fingerprintjs/fingerprintjs
 > 只需简单点击即可直接从浏览器 React 组件跳到本地 IDE 代码
 
 https://github.com/zthxxx/react-dev-inspector
-s
+
+## Whirl - CSS 动画效果
+
+> 具有 108 种 Loading 动画效果
+
+https://whirl.netlify.app/
