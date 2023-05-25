@@ -75,3 +75,9 @@ https://github.com/zthxxx/react-dev-inspector
 > 具有 108 种 Loading 动画效果
 
 https://whirl.netlify.app/
+
+## roughViz - 手绘风格图标库
+
+> 可重复使用的 JavaScript 库，用于在浏览器中创建粗略/手绘样式的图表。
+
+https://github.com/jwilber/roughViz
