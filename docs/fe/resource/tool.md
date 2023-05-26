@@ -83,3 +83,9 @@ https://github.com/starship/starship
 > RSSHub 是一个开源、简单易用、易于扩展的 RSS 生成器，可以给任何奇奇怪怪的内容生成 RSS 订阅源
 
 https://github.com/DIYgod/RSSHub
+
+## BITO - AI 插件
+
+> 一款提高开发效率的工具，官方称 10x faster with ChatGPT
+
+https://bito.ai/
