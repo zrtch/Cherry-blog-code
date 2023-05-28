@@ -89,3 +89,9 @@ https://github.com/DIYgod/RSSHub
 > 一款提高开发效率的工具，官方称 10x faster with ChatGPT
 
 https://bito.ai/
+
+## SwitchHosts - 切换 Hosts 软件
+
+> 可快速切换 Hosts 的软件 高效好用
+
+https://github.com/oldj/SwitchHosts

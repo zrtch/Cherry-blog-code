@@ -52,14 +52,15 @@ const sidebar: DefaultTheme.Sidebar = {
       text: '常用网站',
       link:  '/fe/resource/index.md'
     },
-        {
+    {
+      text: '工具合集',
+      link:  '/fe/resource/tool.md'
+    },
+    {
       text: '前端工具库',
       link:  '/fe/resource/fetools.md'
     },
-      {
-      text: '工具合集',
-      link:  '/fe/resource/tool.md'
-    }
+     
   ],
   '/fe/article': [
     {
