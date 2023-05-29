@@ -14,6 +14,12 @@
 
 [![p9sPkk9.jpg](https://s1.ax1x.com/2023/05/11/p9sPkk9.jpg)](https://imgse.com/i/p9sPkk9)
 
+#### 安全生产风险防控与应急救援平台
+
+[![p9OxDXt.jpg](https://s1.ax1x.com/2023/05/29/p9OxDXt.jpg)](https://imgse.com/i/p9OxDXt)
+
+[![p9OxqNF.png](https://s1.ax1x.com/2023/05/29/p9OxqNF.png)](https://imgse.com/i/p9OxqNF)
+
 #### 绍兴经济生态驾驶舱
 
 [![p9sMYIP.png](https://s1.ax1x.com/2023/05/11/p9sMYIP.png)](https://imgse.com/i/p9sMYIP)
