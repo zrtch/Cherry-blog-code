@@ -95,3 +95,9 @@ https://bito.ai/
 > 可快速切换 Hosts 的软件 高效好用
 
 https://github.com/oldj/SwitchHosts
+
+## slidev - Markdown 的 PPT
+
+> 面向开发人员的 PPT
+
+https://github.com/slidevjs/slidev
