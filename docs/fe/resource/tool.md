@@ -96,6 +96,12 @@ https://bito.ai/
 
 https://github.com/oldj/SwitchHosts
 
+## BackgroundMusic - Mac 控制音量大小
+
+> 一个 macOS 音频实用程序：自动暂停音乐，设置单个应用程序的音量并录制系统音频
+
+https://github.com/kyleneideck/BackgroundMusic
+
 ## slidev - Markdown 的 PPT
 
 > 面向开发人员的 PPT
