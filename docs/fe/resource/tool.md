@@ -107,3 +107,9 @@ https://github.com/kyleneideck/BackgroundMusic
 > 面向开发人员的 PPT
 
 https://github.com/slidevjs/slidev
+
+## Motrix - 多功能下载软件
+
+> 功能齐全的下载管理器,支持下载 HTTP、FTP、BitTorrent、Magnet 等
+
+https://motrix.app/
