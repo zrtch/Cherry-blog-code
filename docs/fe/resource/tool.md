@@ -113,3 +113,9 @@ https://github.com/slidevjs/slidev
 > 功能齐全的下载管理器,支持下载 HTTP、FTP、BitTorrent、Magnet 等
 
 https://motrix.app/
+
+## Intellidock - 动态显隐 Dock
+
+> 根据窗口位置动态显示隐藏 Dock
+
+https://mightymac.app/intellidock/
