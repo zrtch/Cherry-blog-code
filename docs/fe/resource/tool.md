@@ -119,3 +119,9 @@ https://motrix.app/
 > 根据窗口位置动态显示隐藏 Dock
 
 https://mightymac.app/intellidock/
+
+## ClashX - 代理客户端
+
+> ClashX 旨在提供一个简单轻量化的代理客户端
+
+https://github.com/yichengchen/clashX/releases
