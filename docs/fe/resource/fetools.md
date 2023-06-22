@@ -123,3 +123,9 @@ https://github.com/cuth/postcss-pxtorem
 > 以为项目一键接入规约、一键扫描和修复规约问题，保障项目的编码规范和代码质量。
 
 https://www.npmjs.com/package/f2elint
+
+## react-three-fiber - Three.js 的 React 渲染器
+
+> 使用 react 来写 three.js
+
+https://github.com/pmndrs/react-three-fiber
