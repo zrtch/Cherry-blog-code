@@ -125,3 +125,9 @@ https://mightymac.app/intellidock/
 > ClashX 旨在提供一个简单轻量化的代理客户端
 
 https://github.com/yichengchen/clashX/releases
+
+## rustdesk - 远程桌面软件
+
+> 开箱即用的远程桌面软件，无需任何配置
+
+https://github.com/rustdesk/rustdesk
