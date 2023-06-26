@@ -131,3 +131,9 @@ https://github.com/yichengchen/clashX/releases
 > 开箱即用的远程桌面软件，无需任何配置
 
 https://github.com/rustdesk/rustdesk
+
+## CakeBrew - Homebrew 的 App 的版本
+
+> Brew 的可视化工具, Homebrew 的 App 的版本
+
+https://www.cakebrew.com/
