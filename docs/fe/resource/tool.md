@@ -137,3 +137,9 @@ https://github.com/rustdesk/rustdesk
 > Brew 的可视化工具, Homebrew 的 App 的版本
 
 https://www.cakebrew.com/
+
+## DoraemonKit - 泛前端产品研发全生命周期的工具
+
+> 一款面向泛前端产品研发全生命周期的效率平台。
+
+https://github.com/didi/DoKit
