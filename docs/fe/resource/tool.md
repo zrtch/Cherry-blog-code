@@ -148,4 +148,10 @@ https://github.com/didi/DoKit
 
 > Caniuse 用于查看浏览器对各种新特性的兼容情况。
 
-https://caniuse.com/
+https://caniuse.com
+
+## Bit.dev - 允许共享可重用代码组件和代码片段
+
+> “组件是您的设计系统。共建更好的系统。”——Bit.dev
+
+https://bit.dev
