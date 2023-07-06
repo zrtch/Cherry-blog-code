@@ -161,3 +161,9 @@ https://bit.dev
 > 轻松查找和删除旧的和繁重的 node_modules 文件夹
 
 https://github.com/voidcosmos/npkill
+
+## MonitorControl - 控制外部显示器的亮度和音量
+
+> Mac 上控制外部显示器的亮度和音量
+
+https://github.com/MonitorControl/MonitorControl
