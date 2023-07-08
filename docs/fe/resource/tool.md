@@ -167,3 +167,9 @@ https://github.com/voidcosmos/npkill
 > Mac 上控制外部显示器的亮度和音量
 
 https://github.com/MonitorControl/MonitorControl
+
+## uBlock - 低内存的广告拦截插件
+
+> 一款低内存的广告拦截插件
+
+https://github.com/gorhill/uBlock
