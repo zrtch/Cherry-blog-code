@@ -173,3 +173,9 @@ https://github.com/MonitorControl/MonitorControl
 > 一款低内存的广告拦截插件
 
 https://github.com/gorhill/uBlock
+
+## Hyper.js - 命令行工具
+
+> vercel 家的漂亮命令行工具
+
+https://hyper.is/
