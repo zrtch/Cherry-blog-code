@@ -176,6 +176,6 @@ https://github.com/gorhill/uBlock
 
 ## Hyper.js - 命令行工具
 
-> vercel 家的漂亮命令行工具
+> vercel 的漂亮命令行工具
 
 https://hyper.is/
