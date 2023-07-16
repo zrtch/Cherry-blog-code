@@ -129,3 +129,9 @@ https://www.npmjs.com/package/f2elint
 > 使用 react 来写 three.js
 
 https://github.com/pmndrs/react-three-fiber
+
+## 中文网字计划 - Web Font 的形式为网站开发者提供美丽字体
+
+> 中文网字计划是收录众多中文字体并通过 Web Font 的形式为网站开发者提供美丽字体的项目。
+
+https://chinese-font.netlify.app/
