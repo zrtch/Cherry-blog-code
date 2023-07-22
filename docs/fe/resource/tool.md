@@ -191,3 +191,9 @@ https://github.com/mitmproxy/mitmproxy
 > zsh-z 是一个命令行工具，允许您快速跳转到过去或最近经常访问的目录
 
 https://github.com/agkozak/zsh-z
+
+## zsh-autosuggestions - 帮助你自动联想命令
+
+> 它根据历史记录和完成情况在您键入命令时提供建议
+
+https://github.com/zsh-users/zsh-autosuggestions
