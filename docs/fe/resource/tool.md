@@ -185,3 +185,9 @@ https://hyper.is/
 > 供渗透测试人员和软件开发人员使用的抓包工具
 
 https://github.com/mitmproxy/mitmproxy
+
+## zsh-z - 快速跳到记忆目录
+
+> zsh-z 是一个命令行工具，允许您快速跳转到过去或最近经常访问的目录
+
+https://github.com/agkozak/zsh-z
