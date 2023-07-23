@@ -197,3 +197,9 @@ https://github.com/agkozak/zsh-z
 > 它根据历史记录和完成情况在您键入命令时提供建议
 
 https://github.com/zsh-users/zsh-autosuggestions
+
+## cz-emoji-chinese - 中文版本提交命令行
+
+> 🚴 炫酷的中文版本的 git commit emoji 🐛🎨✨ 🔥💄📝 🎉 命令行
+
+https://github.com/tw93/cz-emoji-chinese
