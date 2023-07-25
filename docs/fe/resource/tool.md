@@ -203,3 +203,9 @@ https://github.com/zsh-users/zsh-autosuggestions
 > 🚴 炫酷的中文版本的 git commit emoji 🐛🎨✨ 🔥💄📝 🎉 命令行
 
 https://github.com/tw93/cz-emoji-chinese
+
+## cloc - 统计代码行数
+
+> Al-Danial 的分布式 cloc 的 npm 模块
+
+https://github.com/kentcdodds/cloc
