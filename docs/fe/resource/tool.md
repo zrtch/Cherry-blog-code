@@ -209,3 +209,9 @@ https://github.com/tw93/cz-emoji-chinese
 > Al-Danial 的分布式 cloc 的 npm 模块
 
 https://github.com/kentcdodds/cloc
+
+## fig - 命名行的自动提示
+
+> 下一代命令行 团队秘密、脚本和 SSH 凭据的真相来源
+
+https://github.com/withfig/autocomplete
