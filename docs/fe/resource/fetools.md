@@ -141,3 +141,9 @@ https://chinese-font.netlify.app/
 > 微信调试，各种 WebView 样式调试、手机浏览器的页面真机调试。便捷的远程调试手机页面、抓包工具，支持：HTTP/HTTPS，无需 USB 连接设备。
 
 https://github.com/wuchangming/spy-debugger
+
+## remark42 - 轻量的评论插件
+
+> 可以方便插入到现有博客系统中
+
+https://remark42.com/demo/
