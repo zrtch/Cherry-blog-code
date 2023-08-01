@@ -153,3 +153,9 @@ https://remark42.com/demo/
 > 自定义 grid 布局
 
 https://layout.bradwoods.io/customize
+
+## mo.js - 运动效果的动画库
+
+> 一个写运动效果的动画库
+
+https://mojs.github.io/
