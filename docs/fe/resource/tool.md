@@ -215,3 +215,9 @@ https://github.com/kentcdodds/cloc
 > 下一代命令行 团队秘密、脚本和 SSH 凭据的真相来源
 
 https://github.com/withfig/autocomplete
+
+## logseq - 知识管理笔记应用
+
+> 类比支持 Markdown 笔记本
+
+https://github.com/logseq/logseq
