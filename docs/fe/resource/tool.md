@@ -221,3 +221,9 @@ https://github.com/withfig/autocomplete
 > 类比支持 Markdown 笔记本
 
 https://github.com/logseq/logseq
+
+## shottr - 截图工具
+
+> Mac 上一款好用的截图工具
+
+https://shottr.cc/
