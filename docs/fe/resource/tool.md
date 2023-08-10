@@ -227,3 +227,9 @@ https://github.com/logseq/logseq
 > Mac 上一款好用的截图工具
 
 https://shottr.cc/
+
+## Picture View - 图片浏览应用
+
+> Mac 的一款图片预览工具
+
+https://wl879.github.io/apps/picview/index.html
