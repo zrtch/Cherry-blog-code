@@ -233,3 +233,9 @@ https://shottr.cc/
 > Mac 的一款图片预览工具
 
 https://wl879.github.io/apps/picview/index.html
+
+## log - 有样式的 console
+
+> 打印的是有样式的 console
+
+https://github.com/adamschwartz/log
