@@ -239,3 +239,9 @@ https://wl879.github.io/apps/picview/index.html
 > 打印的是有样式的 console
 
 https://github.com/adamschwartz/log
+
+## Kap - 录屏工具
+
+> 一款开源的屏幕录制工具
+
+https://github.com/wulkano/kap
