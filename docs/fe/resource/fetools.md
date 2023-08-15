@@ -159,3 +159,9 @@ https://layout.bradwoods.io/customize
 > 一个写运动效果的动画库
 
 https://mojs.github.io/
+
+## gantt - 甘特图组件
+
+> 一个简单、交互式、现代的网络甘特图库
+
+https://github.com/frappe/gantt
