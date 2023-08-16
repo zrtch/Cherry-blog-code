@@ -165,3 +165,9 @@ https://mojs.github.io/
 > 一个简单、交互式、现代的网络甘特图库
 
 https://github.com/frappe/gantt
+
+## emoji-mart - 自定义表情
+
+> 一个组件来挑选所有组件
+
+https://github.com/missive/emoji-mart
