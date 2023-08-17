@@ -171,3 +171,9 @@ https://github.com/frappe/gantt
 > 一个组件来挑选所有组件
 
 https://github.com/missive/emoji-mart
+
+## fuzzysort - 模糊文本搜索的 JS 库
+
+> JavaScript 的快速 SublimeText 模糊搜索
+
+https://github.com/farzher/fuzzysort
