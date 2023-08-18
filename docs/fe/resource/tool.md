@@ -245,3 +245,9 @@ https://github.com/adamschwartz/log
 > 一款开源的屏幕录制工具
 
 https://github.com/wulkano/kap
+
+## Input Source Pro - 输入法自动切换
+
+> Mac 输入法自动切换
+
+https://inputsource.pro/zh-CN
