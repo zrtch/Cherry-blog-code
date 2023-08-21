@@ -251,3 +251,15 @@ https://github.com/wulkano/kap
 > Mac 输入法自动切换
 
 https://inputsource.pro/zh-CN
+
+## SwiftBar - Mac 的菜单栏
+
+> 自定义你的 Mac 的菜单栏
+
+https://github.com/swiftbar/SwiftBar
+
+## ray - 代码截图分享工具
+
+> 一个将代码分享的网页工具
+
+https://ray.so/
