@@ -47,3 +47,7 @@ https://my-json-server.typicode.com/
 ## Git 教程 (廖雪峰)
 
 https://www.liaoxuefeng.com/wiki/896043488029600
+
+## 快乐的敲代码歌单
+
+https://musicforprogramming.net/
