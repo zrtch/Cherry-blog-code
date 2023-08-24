@@ -269,3 +269,9 @@ https://ray.so/
 > 提供 PDF、视频、图像和其他在线工具，
 
 https://tinywow.com/
+
+## awesome-mac - mac 工具推荐
+
+> 优秀好用的 Mac 应用
+
+https://git.io/macx
