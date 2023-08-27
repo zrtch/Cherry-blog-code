@@ -177,3 +177,9 @@ https://github.com/missive/emoji-mart
 > JavaScript 的快速 SublimeText 模糊搜索
 
 https://github.com/farzher/fuzzysort
+
+## bun - 高性能 JS 运行时
+
+> 使用 Bun 可以更快地构建
+
+https://bun.sh/
