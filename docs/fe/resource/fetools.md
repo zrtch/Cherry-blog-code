@@ -183,3 +183,9 @@ https://github.com/farzher/fuzzysort
 > 使用 Bun 可以更快地构建
 
 https://bun.sh/
+
+## SmsForwarder - 短信转发器
+
+> 监控 Android 手机短信、来电、APP 通知，并根据指定规则转发到其他手机
+
+https://github.com/pppscn/SmsForwarder
