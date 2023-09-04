@@ -184,8 +184,8 @@ https://github.com/farzher/fuzzysort
 
 https://bun.sh/
 
-## SmsForwarder - 短信转发器
+## qnm - node_modules 目录的 cli 实用程序
 
-> 监控 Android 手机短信、来电、APP 通知，并根据指定规则转发到其他手机
+> 用于查询 node_modules 目录的 cli 实用程序
 
-https://github.com/pppscn/SmsForwarder
+https://github.com/ranyitz/qnm

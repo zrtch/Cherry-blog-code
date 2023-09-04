@@ -281,3 +281,9 @@ https://git.io/macx
 > Regex 可视化工具和编辑器
 
 https://github.com/Bowen7/regex-vis
+
+## SmsForwarder - 短信转发器
+
+> 监控 Android 手机短信、来电、APP 通知，并根据指定规则转发到其他手机
+
+https://github.com/pppscn/SmsForwarder
