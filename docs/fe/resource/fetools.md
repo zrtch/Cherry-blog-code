@@ -189,3 +189,9 @@ https://bun.sh/
 > 用于查询 node_modules 目录的 cli 实用程序
 
 https://github.com/ranyitz/qnm
+
+## Million - 轻巧的 React 替代品
+
+> 一款非常快速和轻量级（＜ 4kb）的虚拟 DOM，它使 React 组件的速度提高了 70%
+
+https://millionjs.org/
