@@ -293,3 +293,15 @@ https://arctype.com/
 > 监控 Android 手机短信、来电、APP 通知，并根据指定规则转发到其他手机
 
 https://github.com/pppscn/SmsForwarder
+
+## 妙言 - 优秀 Markdown 笔记
+
+> 轻灵的 Markdown 笔记本伴你写出妙言
+
+https://miaoyan.app/
+
+## Upscayl - 照片 Ai 修复工具
+
+> Upscayl-基于 Linux 第一理念构建的 Linux、MacOS 和 Windows 的免费开源 AI 图像升级程序
+
+https://github.com/upscayl/upscayl
