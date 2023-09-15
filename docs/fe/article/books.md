@@ -1,6 +1,6 @@
 # 优秀书籍推荐
 
-首先给大家推荐一个全球最大的数字图书馆：[Z-Library](https://lib-rdujl6kmmx7jrwrlzwaqhdc2.resist.tel/)，资源可以直接搜索下载
+首先给大家推荐一个全球最大的数字图书馆：[Z-Library](https://lib-rdujl6kmmx7jrwrlzwaqhdc2.resist.tel/)，资源可直接搜索下载
 
 ## JavaScript
 
