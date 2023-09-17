@@ -195,3 +195,9 @@ https://github.com/ranyitz/qnm
 > 一款非常快速和轻量级（＜ 4kb）的虚拟 DOM，它使 React 组件的速度提高了 70%
 
 https://millionjs.org/
+
+## Gimli Tailwind - 调试 Tailwind 工具
+
+> 一款调试 TailwindCSS 的谷歌浏览器工具
+
+https://chrome.google.com/webstore/detail/gimli-tailwind/fojckembkmaoehhmkiomebhkcengcljl
