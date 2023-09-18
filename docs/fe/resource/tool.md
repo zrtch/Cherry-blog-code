@@ -301,7 +301,13 @@ https://github.com/pppscn/SmsForwarder
 https://miaoyan.app/
 
 ## Upscayl - 照片 Ai 修复工具
-
+ 
 > Upscayl-基于 Linux 第一理念构建的 Linux、MacOS 和 Windows 的免费开源 AI 图像升级程序
 
 https://github.com/upscayl/upscayl
+
+## Storyset - 免费插画
+
+> 一款可以自定义动画的免费插画
+
+https://storyset.com/
