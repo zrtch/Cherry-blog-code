@@ -95,3 +95,9 @@ https://roadmap.sh/roadmaps
 > 通过脑图拆解的方式告诉你如何学
 
 https://learn-anything.xyz/web-development/front-end
+
+## 开源软件指南
+
+> Github 官方的「开源软件指南」
+
+https://opensource.guide/zh-hans/
