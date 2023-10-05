@@ -55,3 +55,7 @@ https://www.liaoxuefeng.com/wiki/896043488029600
 ## 快乐的敲代码歌单
 
 https://musicforprogramming.net/
+
+## AI 工具
+
+https://www.futurepedia.io/
