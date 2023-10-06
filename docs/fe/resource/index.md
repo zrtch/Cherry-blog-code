@@ -59,3 +59,7 @@ https://musicforprogramming.net/
 ## AI 工具
 
 https://www.futurepedia.io/
+
+## 开源算法库
+
+https://the-algorithms.com/zh_Hans
