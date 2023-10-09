@@ -1,6 +1,6 @@
 # 常用网站
 
-## 优质内容源端
+## 优质信息源
 
 https://alleyread.com/
 
@@ -67,3 +67,11 @@ https://www.futurepedia.io/
 ## 开源算法库
 
 https://the-algorithms.com/zh_Hans
+
+## IT Tools 工具箱
+
+https://it-tools.tech/
+
+## 英文写作提高工具
+
+https://writeandimprove.com/
