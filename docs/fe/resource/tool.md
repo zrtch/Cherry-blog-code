@@ -323,3 +323,9 @@ https://telegra.ph/
 > 键保存所有 Mac 应用程序以备日后使用
 
 https://github.com/alyssaxuu/later
+
+## Language Reactor - 看视频学习英语
+
+> 一款可以看视频学习英语的插件
+
+https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm
