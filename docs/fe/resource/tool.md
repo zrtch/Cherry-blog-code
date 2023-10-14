@@ -329,3 +329,9 @@ https://github.com/alyssaxuu/later
 > 一款可以看视频学习英语的插件
 
 https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnheibnpciblicm
+
+## TinySnap - 截图软件
+
+> 网页截出很漂亮的图
+
+https://chrome.google.com/webstore/detail/tinysnap-production-ready/ijobkfpianooemebecnbaafnjndhbdcl
