@@ -335,3 +335,15 @@ https://chrome.google.com/webstore/detail/language-reactor/hoombieeljmmljlkjmnhe
 > 网页截出很漂亮的图
 
 https://chrome.google.com/webstore/detail/tinysnap-production-ready/ijobkfpianooemebecnbaafnjndhbdcl
+
+## NetNewsWire - RSS 订阅工具
+
+> NetNewsWire 是一款适用于 Mac、iPhone 和 iPad 的免费开源 RSS 阅读器
+
+https://netnewswire.com/
+
+## SingleFile - 保存完整页面
+
+> 将一个完整的页面保存到单个 HTML 文件中
+
+https://chrome.google.com/webstore/detail/singlefile/mpiodijhokgodhhofbcjdecpffjipkle
