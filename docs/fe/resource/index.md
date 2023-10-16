@@ -75,3 +75,7 @@ https://it-tools.tech/
 ## 英文写作提高工具
 
 https://writeandimprove.com/
+
+## ChatGPT Shortcut 快捷指令
+
+https://newzone.top/chatgpt/
