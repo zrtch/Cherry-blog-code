@@ -101,3 +101,9 @@ https://learn-anything.xyz/web-development/front-end
 > Github 官方的「开源软件指南」
 
 https://opensource.guide/zh-hans/
+
+## untools - 更好思考问题的工具
+
+> 收集思维工具和框架，帮助您解决问题、做出决策和理解系统。
+
+https://untools.co/
