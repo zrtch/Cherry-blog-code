@@ -347,3 +347,9 @@ https://netnewswire.com/
 > 将一个完整的页面保存到单个 HTML 文件中
 
 https://chrome.google.com/webstore/detail/singlefile/mpiodijhokgodhhofbcjdecpffjipkle
+
+## Happy Hue - 网站颜色搭配神器
+
+> 提供了多种风格颜色的真实网站效果演示
+
+https://www.happyhues.co/
