@@ -353,3 +353,27 @@ https://chrome.google.com/webstore/detail/singlefile/mpiodijhokgodhhofbcjdecpffj
 > 提供了多种风格颜色的真实网站效果演示
 
 https://www.happyhues.co/
+
+## Aicolors - 配色工具
+
+> 一款 Web 配色工具
+
+https://aicolors.co/
+
+## Zeabur 服务部署平台
+
+> Zeabur 会自动识别你的代码来进行部署策略的优化
+
+https://zeabur.com
+
+## Loose Drawing - 插图下载网站
+
+> 一款日本的插图网站
+
+https://loosedrawing.com/
+
+## Final2x - 图像分辨率提升工具
+
+> 一款图像分辨率和质量提升工具
+
+https://github.com/Tohrusky/Final2x
