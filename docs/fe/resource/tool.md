@@ -377,3 +377,9 @@ https://loosedrawing.com/
 > 一款图像分辨率和质量提升工具
 
 https://github.com/Tohrusky/Final2x
+
+## Web-Check - 网络检查工具
+
+> 查看一个网站几乎所有信息
+
+https://web-check.xyz/
