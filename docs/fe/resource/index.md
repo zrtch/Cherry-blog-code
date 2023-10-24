@@ -79,3 +79,7 @@ https://writeandimprove.com/
 ## ChatGPT Shortcut 快捷指令
 
 https://newzone.top/chatgpt/
+
+## 跟踪 Awesome 列表每日更新
+
+https://trackawesomelist.com/
