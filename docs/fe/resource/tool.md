@@ -383,3 +383,9 @@ https://github.com/Tohrusky/Final2x
 > 查看一个网站几乎所有信息
 
 https://web-check.xyz/
+
+## useAnimations - 动画效果的 icon
+
+> 带动画效果的 icon 汇集网站
+
+https://useanimations.com/index.html
