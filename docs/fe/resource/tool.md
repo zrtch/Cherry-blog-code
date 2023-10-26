@@ -389,3 +389,9 @@ https://web-check.xyz/
 > 带动画效果的 icon 汇集网站
 
 https://useanimations.com/index.html
+
+## HTML/URL To Markdown
+
+> 一个将 HTML 转换成 Markdown 文档的在线工具
+
+https://devtool.tech/html-md
