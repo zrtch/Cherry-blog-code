@@ -2,7 +2,7 @@
   "name": "Cherry-blog",
   "version": "1.0.0",
   "description": "Cherry博客",
-  "main": "index.js",
+  "main": "index.js", 
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
