@@ -10,7 +10,7 @@
     "deploy" : "./deploy.sh"
   },
   "keywords": [],
-  "author": "",                                                                                                                                                 
+  "author": "", 
   "license": "ISC",
   "dependencies": {
     "vitepress": "1.0.0-alpha.74"
