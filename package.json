@@ -2,7 +2,8 @@
   "name": "Cherry-blog",
   "version": "1.0.0",
   "description": "Cherry博客",
-  "main": "index.js", 
+  "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
@@ -13,7 +14,7 @@
   "author": "", 
   "license": "ISC",
   "dependencies": {
-    "vitepress": "1.0.0-alpha.74"
+    "vitepress": "2.0.0-alpha.3"
   }
 }
   

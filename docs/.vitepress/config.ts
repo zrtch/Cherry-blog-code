@@ -13,13 +13,11 @@ const sidebar: DefaultTheme.Sidebar = {
       items: [
         { text: 'HTML 基础知识', link: '/fe/default/html.md' },
         { text: 'CSS 基础知识', link: '/fe/default/css.md' },
-      ]
+      ],
     },
     {
       text: 'JavaScript 基础知识',
-      items: [
-        { text: 'JavaScript', link: '/fe/default/js.md' },
-      ]
+      items: [{ text: 'JavaScript', link: '/fe/default/js.md' }],
     },
   ],
   '/fe/engineering': [
@@ -28,69 +26,66 @@ const sidebar: DefaultTheme.Sidebar = {
       items: [
         { text: 'Vite', link: '/fe/engineering/vite.md' },
         { text: 'Npm', link: '/fe/engineering/npm.md' },
-      ]
+        { text: '效率', link: '/fe/engineering/multi-project-startup.md' },
+      ],
     },
   ],
   '/fe/visualization': [
     {
       text: '个人项目',
-      link:  '/fe/visualization/index.md'
+      link: '/fe/visualization/index.md',
     },
   ],
   '/fe/problem': [
     {
       text: 'Vue',
-      link:  '/fe/problem/vue.md'
+      link: '/fe/problem/vue.md',
     },
-      {
+    {
       text: 'React',
-      link:  '/fe/problem/react.md'
-    }
+      link: '/fe/problem/react.md',
+    },
   ],
   '/fe/resource': [
     {
       text: '常用网站',
-      link:  '/fe/resource/index.md'
+      link: '/fe/resource/index.md',
     },
     {
       text: '工具合集',
-      link:  '/fe/resource/tool.md'
+      link: '/fe/resource/tool.md',
     },
     {
       text: '前端工具库',
-      link:  '/fe/resource/fetools.md'
+      link: '/fe/resource/fetools.md',
     },
-     
   ],
   '/fe/article': [
     {
       text: '文章合集',
-      link:  '/fe/article/index.md'
+      link: '/fe/article/index.md',
     },
     {
       text: '书籍合集',
-      link:  '/fe/article/books.md'
-    }
-  ]
-
+      link: '/fe/article/books.md',
+    },
+  ],
 }
 
 export default defineConfig({
   title: '🍒 Cherry的博客',
   description: '🍒 Cherry的博客',
   lang: 'cn-ZH',
-  base: "/Cherry-blog/",
+  base: '/Cherry-blog/',
   themeConfig: {
     siteTitle: '🍒 Cherry的博客',
     outlineTitle: '快速导航',
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/zrtch' }
-    ],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/zrtch' }],
     docFooter: {
       prev: '上一篇',
-      next: '下一篇'
+      next: '下一篇',
     },
     nav,
     sidebar,
-  }
+  },
 })
