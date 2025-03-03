@@ -45,6 +45,10 @@ const sidebar: DefaultTheme.Sidebar = {
       text: 'React',
       link: '/fe/problem/react.md',
     },
+    {
+      text: 'UI 组件库',
+      link: '/fe/problem/ui.md',
+    },
   ],
   '/fe/resource': [
     {
