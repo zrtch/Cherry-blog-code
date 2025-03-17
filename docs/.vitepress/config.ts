@@ -63,6 +63,10 @@ const sidebar: DefaultTheme.Sidebar = {
       text: '前端工具库',
       link: '/fe/resource/fetools.md',
     },
+    {
+      text: '谷歌插件',
+      link: '/fe/resource/plugin.md',
+    },
   ],
   '/fe/article': [
     {

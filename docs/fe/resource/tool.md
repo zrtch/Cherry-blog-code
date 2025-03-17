@@ -378,7 +378,7 @@ https://loosedrawing.com/
 
 https://github.com/Tohrusky/Final2x
 
-## Web-Check - 网络检查工具
+## WebCheck - 网络检查工具
 
 > 查看一个网站几乎所有信息
 
@@ -390,7 +390,7 @@ https://web-check.xyz/
 
 https://useanimations.com/index.html
 
-## HTML/URL To Markdown
+## HTML / URL To Markdown
 
 > 一个将 HTML 转换成 Markdown 文档的在线工具
 
