@@ -32,3 +32,11 @@
 简洁的历史记录管理器：强大的搜索、批量导出、自定义删除、按天或小时删除，并阻止特定域名的历史记录。管理您的浏览历史变得简单高效。通过高级搜索工具（包括关键词和正则表达式）快速找到过去的访问记录。
 
 ![3](../../public/QQ_1742222204998.png)
+
+## Cursorful 录屏工具
+
+录屏工具：https://cursorful.com/
+
+一款基于 Chrome 的免费的带有自动缩放功能的录屏工具，它支持自动跟随鼠标缩放、画面平移等功能，使录制过程更加流畅。用户可以通过 Cursorful 创建高质量的屏幕视频，Cursorful 非常适合用于产品 Demo 演示和操作指南。
+
+<video src="https://cursorful.com/_nuxt/levelsio-16-9.BQqJP9-I.mp4" autoplay loop></video>
