@@ -27,6 +27,7 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: 'Vite', link: '/fe/engineering/vite.md' },
         { text: 'Npm', link: '/fe/engineering/npm.md' },
         { text: '效率', link: '/fe/engineering/multi-project-startup.md' },
+        { text: '运维', link: '/fe/engineering/operations.md' },
       ],
     },
   ],

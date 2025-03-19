@@ -29,7 +29,6 @@ import {
   createFilterWrapper,
   createGlobalState,
   createInjectionState,
-  createRef,
   createReusableTemplate,
   createSharedComposable,
   createSingletonPromise,
@@ -281,7 +280,7 @@ import {
   watchTriggerable,
   watchWithFilter,
   whenever
-} from "./chunk-6ODFCPKZ.js";
+} from "./chunk-SQTWNBIR.js";
 import "./chunk-JN5NFW2R.js";
 export {
   DefaultMagicKeysAliasMap,
@@ -318,7 +317,6 @@ export {
   createGlobalState,
   createInjectionState,
   reactify as createReactiveFn,
-  createRef,
   createReusableTemplate,
   createSharedComposable,
   createSingletonPromise,

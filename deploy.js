@@ -3,9 +3,9 @@ import { join } from 'path';
 import { fileURLToPath } from 'url';
 import fs from 'fs';
 
-// 获取当前文件的目录
+// 获取当前文件的目录（现在是根目录）
 const __dirname = fileURLToPath(new URL('.', import.meta.url));
-const root = join(__dirname, '..');
+const root = __dirname; // 不再需要 join(__dirname, '..')，因为当前文件已在根目录
 const distDir = join(root, 'docs', '.vitepress', 'dist');
 
 // 确保脚本抛出遇到的错误
@@ -45,7 +45,6 @@ try {
 
   // 推送到 GitHub Pages
   console.log('推送到 GitHub...');
-  // 使用与 deploy.sh 相同的推送命令
   execSync('git push -f git@github.com:zrtch/Cherry-blog.git master:blog', { stdio: 'inherit' });
 
   console.log('部署成功！');

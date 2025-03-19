@@ -8,7 +8,7 @@
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs",
-    "deploy": "node scripts/deploy.js"
+    "deploy": "node ./deploy.js"
   },
   "keywords": [],
   "author": "",
