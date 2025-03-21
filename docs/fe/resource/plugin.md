@@ -125,3 +125,83 @@ Infinity 新标签页是一款基于 HTML5 的 Chrome 扩展程序，它重新�
   :::
 
 ![Infinity 新标签页](https://static.infinitytab.com/infinity-official/img/homepage_new@2x.png?imageView2/2/q/100)
+
+## 📑 OneTab 标签页整理 <Badge type="warning" text="效率工具" />
+
+**标签页管理神器**：[官方网站](https://www.one-tab.com/)
+
+OneTab 是一款极简高效的标签页管理工具，当您发现自己打开了太多标签页时，只需点击 OneTab 图标，它会将所有标签页转换成一个列表，帮助您节省高达 95% 的内存并减轻标签页混乱的困扰。
+
+::: tip 核心优势
+
+- 🚀 显著提升浏览器性能和响应速度
+- 💾 减少高达 95% 的内存占用
+- 🔄 一键恢复单个或所有标签页
+- 🔒 支持锁定重要标签组防止误删
+  :::
+
+![OneTab 标签页整理](https://lh3.googleusercontent.com/5ArrPbwFD7qgiJ368D8ZWHlzF0wlw7-ddVSac1iPfA_bMbNGEDBLgU8ssP_UWc0v0Yr_9E0zUsrvLuvrJ6Scy8mo=s800-w800-h500)
+
+## 🔊 Volume Master 音量控制器 <Badge type="tip" text="媒体工具" />
+
+**浏览器音量增强器**：[官方网站](https://www.petasittek.com/)
+
+Volume Master 是一款强大的音量控制扩展，允许您将浏览器中的音频音量提升至原始音量的 600%。它能够独立控制每个标签页的音量，解决了视频声音太小或不同网站音量不一致的问题。
+
+::: tip 核心功能
+
+- 🔊 音量放大至原始音量的 600%
+- 🎯 独立控制每个标签页的音量
+- 💾 自动保存每个网站的音量设置
+- 🎚️ 简洁直观的音量滑块控制
+  :::
+
+![Volume Master 音量控制器](https://lh3.googleusercontent.com/Ee4pzn6wGSEShcERno9tUP6_IG83aCLLnO-XpdKeVL2EQE-V4IMpZMViCIZzxRiOcRdthh5ntylQrdlu7Bax7kr_Jw=s1280-w1280-h800)
+
+## 🔍 Wappalyzer <Badge type="tip" text="开发工具" />
+
+**网站技术分析工具**：[官方网站](https://wappalyzer.com/)
+
+Wappalyzer 是一款能够识别网站使用的技术栈的浏览器扩展。它可以检测内容管理系统、电子商务平台、Web 服务器、JavaScript 框架、分析工具等超过 1500 种技术，是开发者和营销人员的必备工具。
+
+::: info 技术识别范围
+
+- 🖥️ 前端框架（React、Vue、Angular 等）
+- 🗄️ 后端技术（Node.js、PHP、Ruby 等）
+- 🛒 电子商务平台（Shopify、WooCommerce 等）
+- 📊 分析工具（Google Analytics、Hotjar 等）
+- 🔒 安全技术（SSL 证书提供商、WAF 等）
+  :::
+
+对于开发者，它可以帮助研究竞争对手的技术选择；对于营销人员，它可以识别网站使用的营销工具和平台，便于制定更有针对性的策略。
+
+![Wappalyzer 技术分析工具](https://lh3.googleusercontent.com/TE5cGjbTbj_mqLFn1_IljQ8NkX8lZZNDJApijpuoug4FMd8g5EsoWjW8ZUcHnlclzo1KknI21_KUmckFNHUE3JCO0w=s1280-w1280-h800)
+
+## 🐵 篡改猴 (Tampermonkey) <Badge type="warning" text="效率工具" />
+
+**用户脚本管理器**：[官方网站](https://www.tampermonkey.net/)
+
+篡改猴（Tampermonkey）是最流行的浏览器用户脚本管理器，拥有超过 1000 万用户。它允许您安装和管理"用户脚本"，这些脚本可以修改网页功能、添加新功能或移除烦人的元素，从根本上增强您的网页浏览体验。
+
+::: tip 主要优势
+
+- 📚 访问海量用户脚本库（Greasy Fork、OpenUserJS 等）
+- 🛠️ 强大的脚本管理功能（启用/禁用/编辑/调试）
+- 🔄 自动更新已安装的脚本
+- 📱 支持多种浏览器（Chrome、Firefox、Edge、Safari 等）
+- 💾 云端备份和同步功能
+  :::
+
+### 常用脚本推荐
+
+1. **网页限制解除** - 解除网站复制、选择文本的限制
+2. **广告拦截增强** - 屏蔽各类网站上的广告内容
+3. **视频下载助手** - 为各大视频网站添加下载功能
+4. **自动翻页** - 浏览网页时自动加载下一页内容
+5. **护眼模式** - 为网站添加深色模式或调整亮度
+
+![篡改猴插件](https://lh3.googleusercontent.com/WyDmXFob2omUD9sIjdQDjjjvD_oI0CEct-Q-Djh9bWkiJttCgSxQMp-iEDigs9KR-N-LpKN7c97fuEVK2_6kQ8qx5zU=s1280-w1280-h800)
+
+::: warning 注意事项
+使用篡改猴安装脚本时，请确保从可信来源（如 Greasy Fork）下载脚本，并在安装前查看脚本代码，以保护您的隐私和安全。
+:::

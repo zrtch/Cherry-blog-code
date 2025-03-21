@@ -1,6 +1,7 @@
 import { DefaultTheme, defineConfig } from 'vitepress'
 
 const nav: DefaultTheme.NavItem[] = [
+  { text: 'AI知识库', link: '/fe/ai/index.md' },
   { text: '前端基础', link: '/fe/default/html.md' },
   { text: '可视化', link: '/fe/visualization/index.md' },
   { text: '工程化', link: '/fe/engineering/vite.md' },
@@ -28,6 +29,15 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: 'Npm', link: '/fe/engineering/npm.md' },
         { text: '效率', link: '/fe/engineering/multi-project-startup.md' },
         { text: '运维', link: '/fe/engineering/operations.md' },
+      ],
+    },
+  ],
+  '/fe/ai': [
+    {
+      text: 'AI',
+      items: [
+        { text: '应用', link: '/fe/ai/index.md' },
+        { text: 'prompt', link: '/fe/ai/prompt.md' },
       ],
     },
   ],

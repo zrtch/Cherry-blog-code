@@ -10,35 +10,35 @@ hero:
     alt: Cherry
   actions:
     - theme: brand
-      text: Get Start
+      text: Get Started
       link: /fe/default/html.md
     - theme: alt
       text: View on Github
       link: https://github.com/zrtch
 
 features:
-  - icon: 🤨
+  - icon: 📖
     title: 前端基础与进阶
     details: 记录前端基础及进阶知识，掌握开发调试技巧
     link: /fe/default/html.md
-  - icon: 🤓
+  - icon: 🛠️
     title: 前端工程化
-    details: 为了让前端开发能够“自成体系”
+    details: 从构建工具到CI/CD，打造完整前端开发体系
     link: /fe/engineering/vite.md
-  - icon: 😵
-    title: 踩坑合集
-    details: 记录项目中所遇到的问题
-    link: /fe/problem/vue.md
-  - icon: 📚︎
-    title: 文章合集
-    details: 优秀的文章及书籍让大家都看到
+  - icon: 🧠
+    title: AI 知识库
+    details: 人工智能核心知识与实际应用
+    link: /fe/ai/index.md
+  - icon: 📚
+    title: 优质文章
+    details: 精选技术文章与电子书资源推荐
     link: /fe/article/index.md
-  - icon: ⚒
-    title: 资源合集
-    details: 前端的资源以及提效的工具
+  - icon: 🧰
+    title: 开发工具箱
+    details: 精选效率工具与实用资源合集
     link: /fe/resource/index.md
-  - icon: ✊
-    title: 坚持不懈
-    details: 路漫漫其修远兮，吾将上下而求索
-    link: /fe/my/index.md
+  - icon: 🕳️
+    title: 踩坑记录
+    details: 详细记录开发中遇到的典型问题及解决方案
+    link: /fe/problem/vue.md
 ---
