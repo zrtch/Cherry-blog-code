@@ -203,5 +203,5 @@ Wappalyzer 是一款能够识别网站使用的技术栈的浏览器扩展。它
 ![篡改猴插件](https://lh3.googleusercontent.com/WyDmXFob2omUD9sIjdQDjjjvD_oI0CEct-Q-Djh9bWkiJttCgSxQMp-iEDigs9KR-N-LpKN7c97fuEVK2_6kQ8qx5zU=s1280-w1280-h800)
 
 ::: warning 注意事项
-使用篡改猴安装脚本时，请确保从可信来源（如 Greasy Fork）下载脚本，并在安装前查看脚本代码，以保护您的隐私和安全。
+使用篡改猴安装脚本时，请确保从可信来源（如 Greasy Fork）下载脚本，并在安装前查看脚本代码，以保护隐私和安全。
 :::
